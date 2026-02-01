@@ -22,7 +22,7 @@ public class ReportService {
 
     public String exportReport(String reportFormat) throws FileNotFoundException, JRException {
 
-        String path = "C:\\Users\\User\\Downloads\\practice\\practice\\src\\main\\resources\\reports\\users";
+        String path = "C:\\Github\\Jasper-Report-Learning\\src\\main\\resources\\reports\\users";
 
         List<User> users = userRepository.findAll();
 
